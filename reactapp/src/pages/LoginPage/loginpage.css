@@ -1,0 +1,28 @@
+.main-container {
+  @apply flex items-center justify-center min-h-screen bg-gray-600;
+  background-image: url('./../../../../../frontendsprojects.com/beginner/loginPage/img/image11.png')
+}
+
+.login-form {
+  @apply px-8 py-6 mt-4 text-left bg-black text-[#abb2bf] shadow-white shadow-lg rounded-lg;
+}
+
+h3 {
+  @apply text-2xl font-bold text-center;
+}
+
+.logo {
+  @apply text-[#61afef] flex justify-center;
+}
+
+input {
+  @apply w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600;
+}
+
+button {
+  @apply px-6 py-2 mt-4 text-white bg-[#61afef] rounded-lg hover:bg-blue-900;
+}
+
+.link {
+  @apply text-sm text-[#61afef] hover:underline;
+}

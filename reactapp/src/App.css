@@ -1,0 +1,7 @@
+.App {
+  @apply h-screen text-center;
+}
+
+.title{
+  @apply text-3xl font-bold underline;
+}
